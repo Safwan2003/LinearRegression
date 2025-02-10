@@ -24,7 +24,7 @@ The objective of this project is to explore the relationship between advertising
 ![Boxplot Before](./assets/output.png)
 
 **Boxplot After Outlier Removal**  
-![Boxplot After](./assets/output.png)
+![Boxplot After](./assets/output2.png)
 
 ### 3. **Custom Train-Validation-Test Split**
 - Implemented a manual function to split the dataset into training, validation, and test sets in a **70-15-15 ratio** for better evaluation.
