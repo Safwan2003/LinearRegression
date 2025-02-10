@@ -21,10 +21,10 @@ The objective of this project is to explore the relationship between advertising
 - Below are boxplots showing the dataset before and after outlier removal.
 
 **Boxplot Before Outlier Removal**  
-![Boxplot Before](../assets/output.png)
+![Boxplot Before](./assets/output.png)
 
 **Boxplot After Outlier Removal**  
-![Boxplot After](../assets/output.png)
+![Boxplot After](./assets/output.png)
 
 ### 3. **Custom Train-Validation-Test Split**
 - Implemented a manual function to split the dataset into training, validation, and test sets in a **70-15-15 ratio** for better evaluation.
@@ -43,7 +43,7 @@ The model's performance is summarized below:
 **Actual vs Predicted Sales Plot**  
 This plot shows how well the predicted sales match the actual sales.
 
-![Actual vs Predicted](../assets/actualvspredicted.png)
+![Actual vs Predicted](./assets/actualvspredicted.png)
 
 ### 6. **Model Saving**
 - The trained model is saved using `joblib` for future use.
