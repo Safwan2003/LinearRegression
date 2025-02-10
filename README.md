@@ -58,22 +58,18 @@ Linear Regression is a statistical method used to model the relationship between
 
 The mathematical representation for **Simple Linear Regression** (with one feature) is:
 
-\[
-y = \beta_0 + \beta_1 x + \epsilon
-\]
+![Simple Linear Regression](https://latex.codecogs.com/png.latex?y%20%3D%20%5Cbeta_0%20%2B%20%5Cbeta_1x%20%2B%20%5Cepsilon)
 
 For **Multiple Linear Regression** (with multiple features), the equation becomes:
 
-\[
-y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
-\]
+![Multiple Linear Regression](https://latex.codecogs.com/png.latex?y%20%3D%20%5Cbeta_0%20%2B%20%5Cbeta_1x_1%20%2B%20%5Cbeta_2x_2%20%2B%20%5Cdots%20%2B%20%5Cbeta_nx_n%20%2B%20%5Cepsilon)
 
-Where:  
-- \( y \) = target variable (sales)  
-- \( x_1, x_2, \dots, x_n \) = independent variables (TV, Radio, Newspaper advertising budgets)  
-- \( \beta_0 \) = intercept (the baseline sales when all advertising spends are zero)  
-- \( \beta_1, \beta_2, \dots, \beta_n \) = coefficients representing the change in sales for a unit change in the respective advertising budget  
-- \( \epsilon \) = error term (difference between actual and predicted sales)
+Where:
+- **y**: Target variable (sales)
+- **x₁, x₂, ..., xn**: Independent variables (TV, Radio, Newspaper advertising budgets)
+- **β₀**: Intercept (baseline sales when all advertising spends are zero)
+- **β₁, β₂, ..., βn**: Coefficients representing the change in sales for a unit change in each advertising budget
+- **ε**: Error term (difference between actual and predicted sales)
 
 ### How the Model Works
 1. **Model Fitting**: The model finds the best coefficients (\( \beta \)) by minimizing the **Residual Sum of Squares (RSS)** — the difference between actual and predicted sales.  
